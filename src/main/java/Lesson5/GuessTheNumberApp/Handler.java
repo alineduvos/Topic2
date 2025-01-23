@@ -1,4 +1,4 @@
-package GuessTheNumberApp;
+package Lesson5.GuessTheNumberApp;
 
 /*
     - The server generates a random number

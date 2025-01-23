@@ -1,4 +1,4 @@
-package GuessTheNumberApp;
+package Lesson5.GuessTheNumberApp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,6 +32,16 @@ public class Server {
         // Since the server drives the conversation (we sending something empty)
         String outputLine = handler.processInput("");
         out.println(outputLine);
+
+        String clientInput;
+        while ((clientInput = in.readLine()) != null) {
+            // Process the client's input
+            outputLine = handler.processInput(clientInput);
+
+            // Send the server's response back to the client
+            out.println(outputLine);
+
+        }
 
 
         // Closing resources

@@ -1,4 +1,4 @@
-package GuessTheNumberApp;
+package Lesson5.GuessTheNumberApp;
 
 import java.io.BufferedReader;
 import java.io.IOException;

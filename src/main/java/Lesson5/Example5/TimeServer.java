@@ -1,4 +1,4 @@
-package Example5;
+package Lesson5.Example5;
 
 import java.io.IOException;
 import java.io.PrintWriter;
